@@ -2,7 +2,9 @@
 fetch('http://example.com/')
   .then((response) => response.text())
   .then((data) => data)
-  .catch(() => {});
+  .catch((error) => {
+    console.log(error);
+  });
 
 // Async Await
 
