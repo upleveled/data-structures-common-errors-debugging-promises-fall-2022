@@ -48,7 +48,7 @@ const multilineString = 'hi this is a very long  \nstring';
 // Using single quotes to concatenate strings
 const StringGreeting2 = 'hello ' + name2 + ', nice to meet you';
 
-// ## number
+// ## Number
 let a = 0.1;
 let b = 0.2;
 
@@ -132,7 +132,7 @@ const userNameFromVariable = user[propertyName];
 // Add a new property to an object
 user.hobbies = 'play violin';
 
-// ## Arrays
+// ## Array
 
 const studentList = ['Michael', 'Timon', 'Varsha', 'Lisa'];
 const otherStudents = ['Aaron', 'Denisa'];
@@ -147,7 +147,7 @@ studentList.push('Aaron');
 console.log(studentList);
 console.log(newList);
 
-// ## Functions
+// ## Function
 
 const run = function () {
   console.log('i am running');
